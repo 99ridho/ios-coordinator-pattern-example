@@ -19,3 +19,8 @@ This code represent an example to help me to deliver my talk regarding to Coordi
 
 - Using delegate
 - Using closure / blocks
+
+## There's still available for improvements, such as
+
+- Isolating UINavigationController specific things into one another layer for better testability
+- View Controllers & Coordinator creation using factory & also abstracting them to adhere Open/Closed principle
