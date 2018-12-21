@@ -1,12 +1,13 @@
 # Simple iOS Coordinator Pattern Example
 
-This code represent an example for help me to deliver my talk regarding to Coordinator Pattern.
+This code represent an example to help me to deliver my talk regarding to Coordinator Pattern.
 
-## Why using coordinator pattern?
+## Why using coordinator pattern? (according to my own experience)
 
 - Separation of concern, because VC doing many things
 - Hard to change the flow because navigation flows are handled on VC
-- Hard to test
+- Hard to test the flow correctness
+- VC tend to hold unneccessary dependency during passing data in certain flow
 
 ## So, the purpose of coordinator is...
 
