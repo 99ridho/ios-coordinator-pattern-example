@@ -10,6 +10,8 @@ import UIKit
 
 class AddTodoViewController: UIViewController {
 
+    var onTodoAdded: (() -> Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -39,6 +39,10 @@ class TodoCoordinator: BaseCoordinator {
     private func showAddTodoScreen() {
         let controller = AddTodoViewController()
         
+        controller.onTodoAdded = { [weak self] in
+            self?.navigationController?.popViewController(animated: true)
+        }
+        
         navigationController?.pushViewController(controller, animated: true)
     }
     
